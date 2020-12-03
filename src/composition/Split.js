@@ -3,7 +3,7 @@ import './Split.css';
 
 function Split(props) {
     
-    console.log(props);
+    //console.log(props);
     
     const combinedClassName = `split ${props.className}`;
     
