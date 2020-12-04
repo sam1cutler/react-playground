@@ -16,7 +16,7 @@ class RouletteGun extends React.Component {
         this.setState({
             spinningTheChamber: true
         })
-        let timeout = setTimeout( () => {
+        this.timeout = setTimeout( () => {
             console.log('Interval elapsed.')
             const luckyNumber = Math.ceil(Math.random() * 8)
             this.setState({

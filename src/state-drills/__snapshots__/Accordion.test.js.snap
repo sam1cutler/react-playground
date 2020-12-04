@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion component opens Section 1 after opening Section 2 1`] = `
+<div>
+  <h2>
+    Accordion!
+  </h2>
+  <ul>
+    <li
+      key="0"
+      onClick={[Function]}
+    >
+      <button>
+        Section 1
+      </button>
+      <p />
+    </li>
+    <li
+      key="1"
+      onClick={[Function]}
+    >
+      <button>
+        Section 2
+      </button>
+      <p />
+    </li>
+    <li
+      key="2"
+      onClick={[Function]}
+    >
+      <button>
+        Section 3
+      </button>
+      <p />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion component opens a clicked section 1`] = `
+<div>
+  <h2>
+    Accordion!
+  </h2>
+  <ul>
+    <li
+      key="0"
+      onClick={[Function]}
+    >
+      <button>
+        Section 1
+      </button>
+      <p />
+    </li>
+    <li
+      key="1"
+      onClick={[Function]}
+    >
+      <button>
+        Section 2
+      </button>
+      <p />
+    </li>
+    <li
+      key="2"
+      onClick={[Function]}
+    >
+      <button>
+        Section 3
+      </button>
+      <p />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion component renders an empty li when no sections prop is supplied 1`] = `
+<div>
+  <h2>
+    Accordion!
+  </h2>
+  <ul />
+</div>
+`;
